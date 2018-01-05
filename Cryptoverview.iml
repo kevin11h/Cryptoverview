@@ -12,12 +12,8 @@
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../javalibs/jsoup-1.11.2.jar!/" />
         </CLASSES>
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/../../javalibs/jsoup-1.11.2-javadoc.jar!/" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/../../javalibs/jsoup-1.11.2-sources.jar!/" />
-        </SOURCES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>

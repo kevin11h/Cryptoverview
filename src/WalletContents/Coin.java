@@ -8,12 +8,6 @@ public class Coin extends WalletItem {
 
     public Coin(String name, double amountOwned, double USDperCoin, double valueDisplayed) {
         super(name, amountOwned, USDperCoin, valueDisplayed);
-        updateValue(priceListURL);
-    }
-
-    @Override
-    public void updateValue(String URL) {
-        super.updateValue(priceListURL);
     }
 
 }

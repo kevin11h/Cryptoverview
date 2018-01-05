@@ -7,11 +7,6 @@ public class Token extends WalletItem {
 
     public Token(String name, double amountOwned, double USDperToken, double valueDisplayed) {
         super(name, amountOwned, USDperToken, valueDisplayed);
-        updateValue(priceListURL);
     }
 
-    @Override
-    public void updateValue(String URL) {
-        super.updateValue(priceListURL);
-    }
 }
