@@ -6,8 +6,8 @@ public class Coin extends WalletItem {
 
 
 
-    public Coin(String name, double amountOwned, double valueUSD, double valueDisplayed) {
-        super(name, amountOwned, valueUSD, valueDisplayed);
+    public Coin(String name, double amountOwned, double USDperCoin, double valueDisplayed) {
+        super(name, amountOwned, USDperCoin, valueDisplayed);
         updateValue(priceListURL);
     }
 
